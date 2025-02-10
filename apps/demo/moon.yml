@@ -1,5 +1,7 @@
 tags:
-  - demo
+  - setup
+
+
 dependsOn:
   - demo
 
@@ -9,4 +11,4 @@ tasks:
     script: |
       echo "Hello World!"
     deps: 
-      - "demoTask1"
+      - "#setup:setup"

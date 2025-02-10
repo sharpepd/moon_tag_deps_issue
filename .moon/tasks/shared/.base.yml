@@ -1,0 +1,10 @@
+
+tasks:
+  baseTask1:
+    command: echo "Hello from ${env:TASK}"
+    options:
+      internal: true
+    env:
+      TASK: "$task"
+    deps:
+      - "#setup:setupTask1"

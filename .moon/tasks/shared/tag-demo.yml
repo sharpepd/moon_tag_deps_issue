@@ -1,0 +1,10 @@
+
+extends: 
+- .base.yml
+
+
+tasks:
+  demoTask1:
+    extends: baseTask1
+    options:
+      internal: true

@@ -1,0 +1,12 @@
+tags:
+  - demo
+dependsOn:
+  - demo
+
+
+tasks:
+  main:
+    script: |
+      echo "Hello World!"
+    deps: 
+      - "demoTask1"

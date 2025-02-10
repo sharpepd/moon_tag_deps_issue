@@ -1,0 +1,7 @@
+
+tasks:
+  setupTask1:
+    script: |
+      echo "Hello from Setup!"
+    options:
+      internal: true
